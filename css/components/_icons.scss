@@ -1,0 +1,13 @@
+.arrow-icon{
+    &-left, &-right{
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    &-left{
+        background-image: url('../assets/img/left.png');
+    }
+    &-right{
+        background-image: url('../assets/img/right.png');
+    }
+}

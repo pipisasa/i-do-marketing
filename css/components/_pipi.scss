@@ -1,0 +1,18 @@
+.pipi-{
+    &carousel{
+        position: relative;
+        &-control{
+            .btn-floating{
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+            .btn-floating:first-child{
+                left: -50px;
+            }
+            .btn-floating:last-child{
+                right: -50px;
+            }
+        }
+    }
+}

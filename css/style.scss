@@ -1,0 +1,30 @@
+@import './components/navbar';
+@import './components/icons';
+@import './components/pipi';
+@import './components/blog-section';
+@import './components/about-us';
+@import './components/footer';
+@import './components/adversting';
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn{
+    border-radius: 0;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h1{
+    letter-spacing: 2px;
+}
+p{
+    font-size: 14px;
+}
+
+@media screen and (max-width: 500px){
+    h1{
+        font-size: 20px;
+    }
+}
