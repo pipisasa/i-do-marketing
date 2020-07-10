@@ -1,9 +1,4 @@
 section.contact{
-  background-color: #272b2e;
-  background-image: url('../assets/img/contact-bg.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 
   input[type="text"]{
     background: transparent;
@@ -51,4 +46,13 @@ footer.footer{
   a{
     color: #FFF;
   }
+}
+
+.bg-adobe-stock{
+  background-color: #272b2e;
+  background-image: url('../assets/img/contact-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFF;
 }
