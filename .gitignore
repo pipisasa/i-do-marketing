@@ -2,3 +2,4 @@
 .firebaserc
 /.firebase
 firebase.json
+node_modules

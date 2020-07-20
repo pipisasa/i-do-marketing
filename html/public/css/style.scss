@@ -5,6 +5,7 @@
 @import './components/about-us';
 @import './components/footer';
 @import './components/adversting';
+@import './components/services';
 
 *{
     font-family: 'Montserrat', sans-serif;
@@ -26,6 +27,7 @@ h1{
 p{
     font-size: 14px;
 }
+
 
 @media screen and (max-width: 500px){
     h1{
